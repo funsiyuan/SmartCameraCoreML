@@ -16,10 +16,10 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupCamere()
+        setupCamera()
     }
     
-    private func setupCamere() {
+    private func setupCamera() {
         let captureSession = AVCaptureSession()
         captureSession.sessionPreset = .photo
 
